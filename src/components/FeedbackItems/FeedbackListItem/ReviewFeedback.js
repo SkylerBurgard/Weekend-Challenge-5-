@@ -7,8 +7,8 @@ class Review Feedback extends Component {
             <div>
                 <h1>Review feedback here!</h1>
             </div>
-        );
+        )
     }
-}
+};
 
 export default ReviewFeedback;

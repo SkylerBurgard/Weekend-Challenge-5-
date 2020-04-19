@@ -13,7 +13,7 @@ render() {
         <div>
             <h1>Tell us how you're feeling.</h1>
         </div>
-    );
-}
+    )
+};
 
 export default connect()(FeelingFeedback);
