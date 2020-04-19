@@ -7,7 +7,8 @@ class ContentFeedback extends Component {
         submit: "",
     };
 
-    onInputChange = (event) => (input) {
+    onInputChange = (event) => (input) => {
+        console.log(event)
         this.setState(
             {
                 [input]: event.target.value,
@@ -31,7 +32,7 @@ render() {
 
             <div>
                 <input type="text" onChange={this.onInputChange("content")}></input>
-                <button onClick={this.onContnetClick}> Next </button>
+                <button onClick={this.onContentClick}> Next </button>
             </div>
         </div>
     );
